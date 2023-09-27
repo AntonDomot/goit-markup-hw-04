@@ -210,6 +210,20 @@ section {
   margin-bottom: 8px;
 }
 
+.priorities_icon_box {
+    border-radius: 4px;
+      border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+      background: var(--CLOUD, #F4F4FD);
+      margin-bottom: 8px;
+}
+
+.priorities_icon {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+}
+
 .priorities_item {
   font-size: 16px;
   line-height: 1.5;
@@ -236,7 +250,6 @@ section {
 .team_flex {
   display: flex;
   gap: 24px;
-  
 }
 
 .team_subtitle {
@@ -254,6 +267,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team_page {
@@ -261,11 +275,12 @@ section {
 }
 
 .team_page_list {
+  flex-basis: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   background-color: #ffffff;
   border-bottom: 0;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   }
 
 .team_page_foto {
@@ -273,6 +288,37 @@ section {
 
 .team_job {
     padding: 32px 0;
+}
+
+.team_social {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.team_social_list {
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+}
+
+.team_social_link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+
+.team_social_icon {
+  fill: #F4F4FD;
+}
+
+.team_social_list:hover,
+.team_social_list:focus {
+  background-color: #404BBF;
 }
 
 /**========Four section=============*/
@@ -331,6 +377,10 @@ section {
   background-color: #2e2f42;
 }
 
+.foot_text {
+margin-right: 120px;
+}
+
 .foot_item {
   color: #f4f4fd;
   font-size: 16px;
@@ -357,5 +407,43 @@ section {
 }
 
 .foot_container {
-  
+  display: flex;
+}
+
+.foot_social_text {
+ 
+}
+
+.foot_social_subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.foot_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;}
+
+.foot_social_list {
+  width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.foot_social_link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.foot_social_icon {
+  fill: #F4F4FD;
 }
